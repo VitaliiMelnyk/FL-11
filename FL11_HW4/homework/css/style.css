@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #e6e6e6;
+}
+header {
+	background-image: url("../img/sample2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position: center;
+	height: 100vh;
+	color: white;
+}
+h1 {
+	text-align: center;
+	position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+h3 {
+	position: absolute;
+        top: 58%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+
+}
+h2{
+	text-align: center;
+}
+span{
+	font-size: 3em;
+}
+
+a{
+	text-decoration: none;
+}
+.links{
+	color: white;
+}
+.headd{
+	width: 1200px;
+	margin: 0 auto;
+	height: 200px;
+}
+.left{
+	margin-top: 20px;
+	float: left;
+	text-transform: uppercase;
+
+}
+.right {
+	margin-top: 20px;
+	float: right;
+
+}
+.butt{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+
+}
+.button {
+
+	background: black;
+	color: white;
+	border-radius: 3px;
+	width: 150px;
+	padding: 16px 0;
+	margin: 0 auto;
+	border: 2px solid white;
+	margin-top: 350px;
+	text-align: center;
+
+
+}
+
+.header-navbar{
+
+
+}
+
+.triangle {
+
+}
+.gallery-container {
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  align-content: space-between;
+  box-sizing: border-box;
+
+}
+.sample1 {
+	width: 300px;
+	height: 200px;
+
+}
+.sample2 {
+	width: 300px;
+	height: 200px;
+}
+
+.gallery-down {
+	display: flex;
+	flex-direction: row;
+	
+	align-content: stretch;
+	background-color: white;
+
+}
+.picone {
+	width: 300px;
+	height: 200px;
+
+}
+.pictwo {
+	width: 300px;
+	height: 200px;
+}
+
+.picthree {
+	width: 300px;
+	height: 200px;
+}
+.picfourth {
+	width: 300px;
+	height: 200px;
+}
+
+
+
+ul li{
+	display: inline-block;
+}
+.gallery-down{
+
+}
+
+.button-down {
+
+}
+.footer-navbar {
+	width: 1200px;
+	margin: 0 auto;
+	height: 50px;
+
+	
+	
+}
+span.down{
+	margin-bottom: 20px;
+	float: left;
+	text-transform: uppercase;
+
+}
+.footer-navbar a {
+	margin-bottom: 20px;
+	float: right;
+
+}
